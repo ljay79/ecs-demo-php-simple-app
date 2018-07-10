@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -ea
-source .env
+source ./bin/.env
 
 echo "In configure-ecs.sh"
 script_dir="$(dirname "$0")"
